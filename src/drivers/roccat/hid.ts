@@ -211,7 +211,7 @@ export class RoccatHidClient {
         hideSleepCard: true,
         forceShowBattery: false,
         showAdvancedSection: true,
-        pollingNote: "Polling changes write and stick, but the echo does not yet decode a rate, so the value shown is the last one written.",
+        pollingNote: "Polling is write-only here: the echo does not yet decode a rate, so the value shown is the last one written, not a value read back.",
         statusNote: dpiTable === null
           ? "The mouse did not answer its settings query, so DPI could not be read."
           : undefined,
