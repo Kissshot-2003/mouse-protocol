@@ -225,6 +225,10 @@
     "./scyrox": {
       "types": "./dist/scyrox/index.d.ts",
       "import": "./dist/scyrox/index.js"
+    },
+    "./hitscan": {
+      "types": "./dist/hitscan/index.d.ts",
+      "import": "./dist/hitscan/index.js"
     }
   },
   "scripts": {
